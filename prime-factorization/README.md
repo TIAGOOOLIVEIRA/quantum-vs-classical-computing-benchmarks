@@ -12,6 +12,16 @@ Given a composite number N, find its prime factors p and q such that:
 
 The difficulty of this problem grows exponentially with the size of N for classical computers.
 
+## Setup
+
+### Qiskit python environment
+
+```c python3 -m venv qiskit-env
+source qiskit-env/bin/activate
+pip install -r requirements.txt
+python -m ipykernel install --user --name=qiskit-env --display-name "Qiskit Env"
+```
+
 ## Approaches
 
 ### Classical Algorithms
